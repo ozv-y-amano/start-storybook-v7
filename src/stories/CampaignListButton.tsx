@@ -4,6 +4,7 @@ type Props = {
 	label: string;
 	url: string;
 };
+
 export const CampaignListButton = ({
 	label,
 	url = "/special/campaign",
