@@ -1,10 +1,13 @@
-import "./campaignList.css";
+import "./campaignListButton.css";
 
 type Props = {
 	label: string;
 	url: string;
 };
-export const CampaignList = ({ label, url = "/special/campaign" }: Props) => {
+export const CampaignListButton = ({
+	label,
+	url = "/special/campaign",
+}: Props) => {
 	return (
 		<div>
 			<p className={"campaignListButton"}>

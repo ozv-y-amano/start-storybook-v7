@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { CampaignList } from "./CampaignList";
+import { CampaignListButton } from "./CampaignListButton";
 
 const meta = {
-	title: "Example/Hapitas/CampaignList",
-	component: CampaignList,
+	title: "Example/Hapitas/CampaignListButton",
+	component: CampaignListButton,
 	parameters: {
 		layout: "centered",
 	},
 	tags: ["autodocs"],
-} satisfies Meta<typeof CampaignList>;
+} satisfies Meta<typeof CampaignListButton>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
