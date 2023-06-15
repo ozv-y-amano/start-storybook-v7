@@ -20,3 +20,10 @@ export const TopPage: Story = {
 		url: "/",
 	},
 };
+
+export const TestPage: Story = {
+	args: {
+		label: "テスト",
+		url: "/",
+	},
+};
