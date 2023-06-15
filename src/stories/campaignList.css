@@ -1,0 +1,18 @@
+.campaignListButton {
+	margin: 1em 0;
+	text-align: center;
+}
+
+.campaignListButtonText {
+	background-color: #fff;
+	border: solid 2px #6e6e6e;
+	border-radius: 30px;
+	box-shadow: 1px 1px 3px;
+	color: #6e6e6e;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0.7em 2em;
+	text-decoration: none;
+	transition: 0.4s;
+}
